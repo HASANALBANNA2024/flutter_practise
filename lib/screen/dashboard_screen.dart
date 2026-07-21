@@ -17,6 +17,8 @@ class DashboardScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: const [
               SizedBox(height: 12),
+
+              ///custom infor card call
               InfoCard(
                 icon: Icons.icecream_outlined,
                 text: "Ice cream is very delicious right?",
